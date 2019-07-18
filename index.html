@@ -16,17 +16,6 @@
 	<link rel="stylesheet" type="text/css" href="styles/contact.css">
 	<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 	<link rel="stylesheet" type="text/css" href="styles/responsive.css">
-	
-
-	<style>
-		/* Set the size of the div element that contains the map */
-		#map {
-			height: 400px;
-			/* The height is 400 pixels */
-			width: 100%;
-			/* The width is the width of the web page */
-		}
-	</style>
 </head>
 
 <body>
@@ -49,18 +38,22 @@
 						<div class="logo_content">
 							<div class="logo_text logo_text_not_ie">Training Workshop on Devops</div>
 							<div class="logo_sub">August 3-4, 2018 - IIT,University of Dhaka</div>
+							
 						</div>
 					</div>
 
 				</div>
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="#AboutDevOps">About DevOps</a></li>
-					<li><a href="#Schedule">Schedule</a></li>
-					<li><a href="#Contact">Contact</a></li>
+					<li><a style="color:white" href="index.html">Home</a></li>
+					<li><a style="color:white" href="#AboutDevOps">About DevOps</a></li>
+					<li><a style="color:white" href="#Schedule">Schedule</a></li>
+					<li><a style="color:white" href="#Contact">Contact</a></li>
 				</ul>
 			</div>
 			<div class="menu_social">
+					<div class="button header_button"><a target="_blank"
+						href="https://docs.google.com/forms/d/1ImgrtuHEgteWke4V0GcJR460SRUsiK9CLJfrGvwldBM/viewform?fbclid=IwAR1qn-alKbGR26fl9NRqCmLCdX40pBhQEOXict51bQLs950jABeEwdHu_Xk&edit_requested=true">Apply
+						Now!</a></div>
 				<div class="menu_social_title">Follow uf on Social Media</div>
 				<ul>
 					<li><a href="https://www.facebook.com/events/375038863156826/"><i class="fa fa-facebook"
@@ -73,66 +66,68 @@
 
 		<div class="home">
 			<!-- <div class="home_background" style="background-image: url(images/index.jpg)"></div> -->
-			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="img/bg2.jpg"
-				data-speed="0.8"></div>
+			<div class="parallax_background" data-parallax="scroll" data-image-src="img/bg2.jpg" data-speed="0.8">
+			</div>
 
 			<!-- Header -->
 
 			<header class="header" id="header">
-				<div>
-					<div class="header_top">
-						<div class="container">
-							<div class="row">
-								<div class="col">
-									<div
-										class="header_top_content d-flex flex-row align-items-center justify-content-start">
-										<div>
 
-											<div
-												class="logo_container d-flex flex-row align-items-start justify-content-start">
-												<div class="logo_image">
-													<div><a href="http://www.iit.du.ac.bd/" target="blank"><img
-																src="img/iitlogo-blue.png" alt=""></a></div>
-												</div>
-												<div class="logo_content">
-													<div id="logo_text" class="logo_text logo_text_not_ie">Workshop
-														on DevOps</div>
-													<div class="logo_sub">Organized by Distributed Systems &
-														Software Engineering (DSSE) Research and Development Group
-													</div>
-													<div class="logo_sub">Institute of Information Technology,
-														University of Dhaka</div>
-												</div>
+				<div style="margin-top: 15px" class="header_top">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<div style="padding-bottom: 20px"
+									class="header_top_content d-flex flex-row align-items-center justify-content-start">
+									<div>
+
+										<div
+											class="logo_container d-flex flex-row align-items-start justify-content-start">
+											<div class="logo_image">
+												<div><a href="http://www.iit.du.ac.bd/" target="blank"><img
+															src="img/iitlogo-blue.png" alt=""></a></div>
 											</div>
-
+											<div class="logo_content">
+												<div class="logo_text logo_text_not_ie">Training Workshop
+													on DevOps</div>
+												<div style="padding-top: 5px" class="logo_sub">Organized by Distributed
+													Systems &
+													Software Engineering (DSSE) Research and Development Group
+												</div>
+												<!-- <div class="logo_sub">Institute of Information Technology,
+														University of Dhaka</div> -->
+											</div>
 										</div>
 
-										<div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i>
-										</div>
+									</div>
+
+									<div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="header_nav" id="header_nav_pin">
-						<div class="header_nav_inner">
-							<div class="header_nav_container">
-								<div class="container">
-									<div class="row">
-										<div class="col">
-											<div
-												class="header_nav_content d-flex flex-row align-items-center justify-content-start">
-												<nav class="main_nav">
-													<ul>
-														<li><a href="index.html">Home</a></li>
-														<li><a href="#AboutDevOps">About DevOps</a></li>
-														<li><a href="#Schedule">Schedule</a></li>
-														<li><a href="#Contact">Contact</a></li>
-													</ul>
-												</nav>
-												<div class="header_extra ml-auto">
-													<div class="button header_button"><a href="#">Apply Now!</a></div>
-												</div>
+				</div>
+				<div class="header_nav" id="header_nav_pin">
+					<div class="header_nav_inner">
+						<div class="header_nav_container">
+							<div class="container">
+								<div class="row">
+									<div class="col">
+										<div
+											class="header_nav_content d-flex flex-row align-items-center justify-content-start">
+											<nav class="main_nav">
+												<ul>
+													<li><a href="#">Home</a></li>
+													<li><a href="#AboutDevOps">About DevOps</a></li>
+													<li><a href="#Schedule">Schedule</a></li>
+													<li><a href="#Contact">Contact</a></li>
+												</ul>
+											</nav>
+											<div class="header_extra ml-auto">
+												<div class="button header_button"><a target="_blank"
+														href="https://docs.google.com/forms/d/1ImgrtuHEgteWke4V0GcJR460SRUsiK9CLJfrGvwldBM/viewform?fbclid=IwAR1qn-alKbGR26fl9NRqCmLCdX40pBhQEOXict51bQLs950jABeEwdHu_Xk&edit_requested=true">Apply
+														Now!</a></div>
 											</div>
 										</div>
 									</div>
@@ -141,6 +136,7 @@
 						</div>
 					</div>
 				</div>
+
 			</header>
 
 			<div class="home_content_container">
@@ -148,10 +144,13 @@
 					<div class="row">
 						<div class="col">
 							<div class="home_content">
-								<div class="home_location">August 3-4, 2019</div>
-								<div class="home_title"><b style="background-color: black">Training Workshop on
+								<div style="padding-bottom: 5px; padding-top: 20px" class="home_location">August 3-4,
+									2019</div>
+								<div class="home_title"><b style="background-color: #2F3293;padding: 5px">Training
+										Workshop on
 										DevOps</b>
 								</div>
+								<br />
 								<div class="home_location">IIT, University of Dhaka</div>
 								<div class="home_text">DevOps is referred to the software engineering process that
 									combines development effort with service operations under the principles of Agile.
@@ -172,76 +171,113 @@
 
 		<!-- Intro -->
 
-		<div class="intro" id="AboutDevOps">
-			<div class="intro_content d-flex flex-row flex-wrap align-items-start justify-content-between">
 
-				<!-- Intro Item -->
-				<div class="intro_item">
-					<div class="intro_body" style="color:black">
-						<div class="intro_title"><a>DevOps</a></div><br />
-						<div class="intro_subtitle" style="color:black">DevOps is referred to the software engineering
-							process that combines
-							development effort with service operations under the principles of Agile. Previously, the
-							two concepts or activities – development and operations – were isolated, comprising of
-							different teams with different agendas. But under the Agile umbrella, that requires teams to
-							move fast, collaborate and renovate, these two concerns are fused to better create and
-							operate a software product.</div>
-						<br />
-						<div class="intro_subtitle" style="color:black">Development efforts in software engineering
-							mainly encapsulates the
-							coding or programming of the software along with testing and QA. On the other hand,
-							operations involve the works of multiple professionals like, systems engineers, system
-							administrators, operations staff, release engineers, DBAs, network engineers, security
-							professionals and more. The latter is concerned with the product, its use and consequent
-							feedback. We, as software engineering or computer sciences students, are mainly taught and
-							are concerned with the development aspects. We can code. But there is more to software than
-							coding. DevOps tries to include operations activities in the development cycle, optimizing
-							the creation and maintenance of the final product.</div>
-					</div>
-				</div>
+		<div style="padding-top: 100px; padding-bottom: 0px" class="calendar" id="AboutDevOps">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-6 calendar_col">
+						<div style="min-height: 550px" class="calendar_container">
+							<div class="calendar_items">
 
-				<!-- Intro Item -->
-				<div class="intro_item">
-					<div class="intro_body">
-						<div class="intro_title" style="color:black"><a>DevOps, as a practice, contains the following
-								advantages:</a></div><br />
-						<div class="intro_subtitle" style="color:black">
-							<ol>
-								<li>It removes the communication delay between
-									the development and operations teams, thus quickening the process and releasing the
-									product
-									much faster.</li>
-								<li>With fast releases, codes are reviewed earlier, providing the opportunity to remove
-									code
-									defects earlier as well.</li>
-								<li>Software can become secure with the direct inclusion of security professionals in
-									the
-									development cycle.</li>
-								<li>With the knowledge of DevOps firmly grasped, extra staffing can be reduced and teams
-									can
-									become more efficient.</li>
-							</ol>
-						</div>
-						<div class="intro_subtitle" style="color:black">
-							This workshop aims to shed a light and also train students and professionals about the
-							concepts and practices of DevOps. The workshop will take place on August 3rd and 4th, and
-							will comprise of 4 sessions in total. Each day’s 1st session will be conducted from 9.30 am
-							to 12.30 pm, and the 2nd one from 2 pm to 5 pm.
+								<!-- Calendar Item -->
+								<div class="calendar_item d-flex flex-row align-items-center justify-content-start">
+									<div style="color:black; padding-right: 20px">
+										<div>
+											<h4>DevOps</h4>
+										</div>
+										<div>DevOps is referred to the software engineering
+											process that combines
+											development effort with service operations under the principles of Agile.
+											Previously, the
+											two concepts or activities – development and operations – were isolated,
+											comprising of
+											different teams with different agendas. But under the Agile umbrella, that
+											requires teams to
+											move fast, collaborate and renovate, these two concerns are fused to better
+											create and
+											operate a software product.
+										</div>
+										<br />
+										<div>Development efforts in software engineering
+											mainly encapsulates the
+											coding or programming of the software along with testing and QA. On the
+											other hand,
+											operations involve the works of multiple professionals like, systems
+											engineers, system
+											administrators, operations staff, release engineers, DBAs, network
+											engineers, security
+											professionals and more. The latter is concerned with the product, its use
+											and consequent
+											feedback. We, as software engineering or computer sciences students, are
+											mainly taught and
+											are concerned with the development aspects. We can code. But there is more
+											to software than
+											coding. DevOps tries to include operations activities in the development
+											cycle, optimizing
+											the creation and maintenance of the final product.</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
+
+					<div class="col-xl-6 calendar_col">
+						<div style="min-height: 550px" class="calendar_container">
+							<div class="calendar_items">
+
+								<!-- Calendar Item -->
+								<div class="calendar_item d-flex flex-row align-items-center justify-content-start">
+									<div style="color:black; padding-right: 20px">
+										<div>
+											<h4>DevOps, as a practice, contains the following
+												advantages:</h4>
+										</div>
+										<div>
+											<ol>
+												<li>It removes the communication delay between
+													the development and operations teams, thus quickening the process
+													and releasing the
+													product
+													much faster.</li>
+												<li>With fast releases, codes are reviewed earlier, providing the
+													opportunity to remove
+													code
+													defects earlier as well.</li>
+												<li>Software can become secure with the direct inclusion of security
+													professionals in
+													the
+													development cycle.</li>
+												<li>With the knowledge of DevOps firmly grasped, extra staffing can be
+													reduced and teams
+													can
+													become more efficient.</li>
+											</ol>
+										</div>
+										<br />
+										<div>
+											This workshop aims to shed a light and also train students and professionals
+											about the
+											concepts and practices of DevOps. The workshop will take place on August 3rd
+											and 4th, and
+											will comprise of 4 sessions in total. Each day’s 1st session will be
+											conducted from 9.30 am
+											to 12.30 pm, and the 2nd one from 2 pm to 5 pm.
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
 				</div>
 			</div>
 		</div>
 
-
-		<!-- Calendar -->
-
-		<div class="calendar" id="Schedule">
+		<div style="padding-top: 120px" class="calendar" id="Schedule">
 			<div class="container">
-				<div>
-					<div class="col text-center">
-						<div style="color:black" class="pricing_section_title">Schedule</div>
-					</div>
+				<div class="text-center">
+					<div style="color:black" class="pricing_section_title">Schedule</div>
 				</div>
 				<div class="row">
 					<div class="col-xl-6 calendar_col">
@@ -339,66 +375,75 @@
 
 		<!-- Footer -->
 
-		<footer class="footer">
-			<div class="footer_content">
+		<footer class="footer" id="Contact">
+			<div class="footer_content" >
 				<div class="container">
-					<div class="row" id="Contact">
+					<div class="row">
 
 						<!-- Footer Column -->
 						<div class="col-lg-8 footer_col">
 							<div class="footer_about">
-								<div>
-
-									<div class="logo_container d-flex flex-row align-items-start justify-content-start">
-										<div class="logo_image">
-											<div><img src="img/iitlogo-blue.png" alt=""></div>
-										</div>
-										<div class="logo_content">
-											<div id="logo_text" class="logo_text logo_text_not_ie">Training Workshop on
-												Devops
-											</div>
-											<div class="logo_sub">August 3-4, 2019</div>
-										</div>
+								<div class="logo_content">
+									<div style="padding-bottom: 20px" class="logo_text logo_text_not_ie">About DSSE
 									</div>
-
+									<div class="logo_sub">
+										<p style="font-size: 17px; color:white">Distributed Systems & Software
+											Engineering
+											(DSSE) Student Research Group, founded in 2012, is a group of learners
+											dedicated
+											to the research of software engineering. Starting with only 4 fouding
+											members,
+											the group is now more than 60 members strong and dreaming to grow far
+											beyond.</p>
+									</div>
 								</div>
 							</div>
 						</div>
 
 						<div class="col-lg-4 footer_col">
-							<div>
-								<ul class="contact_info_list">
-									<li class="d-flex flex-row align-items-start justify-content-start">
-										<div>
-											<div class="contact_info_icon text-center"><img src="images/contact_1.png"
-													alt=""></div>
-										</div>
-										<div class="contact_info_text">IIT,University of Dhaka,
-												Dhaka, Bangladesh </div>
-									</li>
-									<li class="d-flex flex-row align-items-start justify-content-start">
-										<div>
-											<div class="contact_info_icon text-center"><img src="images/contact_2.png"
-													alt=""></div>
-										</div>
-										<div class="contact_info_text">+8801814329953</div>
-									</li>
-									<li class="d-flex flex-row align-items-start justify-content-start">
-										<div>
-											<div class="contact_info_icon text-center"><img src="images/contact_2.png"
-													alt=""></div>
-										</div>
-										<div class="contact_info_text">+8801819664793</div>
-									</li>
-									<li class="d-flex flex-row align-items-start justify-content-start">
-										<div>
-											<div class="contact_info_icon text-center"><img src="images/contact_3.png"
-													alt=""></div>
-										</div>
-										<div class="contact_info_text">bsse0731@iit.du.ac.bd</div>
-									</li>
-								</ul>
+							<div style="padding-bottom: 20px" class="logo_content">
+								<div id="logo_text" class="logo_text logo_text_not_ie">Contact Information
+								</div>
 							</div>
+							<ul class="contact_info_list">
+								<li class="d-flex flex-row align-items-start justify-content-start">
+									<div>
+										<div class="contact_info_icon text-center"><img src="images/contact_1.png"
+												alt=""></div>
+									</div>
+									<div class="contact_info_text">IIT,University of Dhaka,
+										Dhaka, Bangladesh </div>
+								</li>
+								<li class="d-flex flex-row align-items-start justify-content-start">
+									<div>
+										<div class="contact_info_icon text-center"><img src="images/contact_2.png"
+												alt=""></div>
+									</div>
+									<div class="contact_info_text">+8801814329953</div>
+								</li>
+								<li class="d-flex flex-row align-items-start justify-content-start">
+									<div>
+										<div class="contact_info_icon text-center"><img src="images/contact_2.png"
+												alt=""></div>
+									</div>
+									<div class="contact_info_text">+8801819664793</div>
+								</li>
+								<li class="d-flex flex-row align-items-start justify-content-start">
+									<div>
+										<div class="contact_info_icon text-center"><img src="images/contact_3.png"
+												alt=""></div>
+									</div>
+									<div class="contact_info_text">bsse0731@iit.du.ac.bd</div>
+								</li>
+								<li class="d-flex flex-row align-items-start justify-content-start">
+									<div>
+										<div class="contact_info_icon text-center"><img src="images/contact_3.png"
+												alt=""></div>
+									</div>
+									<div class="contact_info_text">bsse0718@iit.du.ac.bd</div>
+								</li>
+							</ul>
+
 
 						</div>
 					</div>
@@ -413,9 +458,10 @@
 								class="footer_extra_content d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-lg-start justify-content-center">
 
 								<div class="footer_social">
-										<div class="footer_social_title">Find out more on <a target="blank" href="https://www.facebook.com/events/375038863156826/">Facebook</a></div>
-										
-									</div>
+									<div class="footer_social_title">Find out more on <a target="blank"
+											href="https://www.facebook.com/events/375038863156826/">Facebook</a></div>
+
+								</div>
 								<div class="footer_extra_right ml-lg-auto text-lg-right">
 									<div class="copyright">
 										Website developed by DSSE, IIT, DU
